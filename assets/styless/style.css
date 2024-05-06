@@ -1,0 +1,123 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 30px;
+
+
+}
+
+body {
+    position: relative;
+    background-color: #217dc8;
+    height: 100vh;
+}
+
+header {
+    background-color: #217dc8;
+
+
+
+
+}
+
+.image {
+    text-align: center;
+    margin-top: 60px;
+    filter: drop-shadow(-5px 5px 15px rgba(0, 0, 0, 0.7));
+    z-index: -2;
+
+}
+
+.cont-contact {
+    display: flex;
+    flex-flow: row-reverse;
+
+}
+
+.contact {
+    position: fixed;
+    display: flex;
+    justify-content: flex-start;
+    list-style: none;
+
+
+}
+
+button {
+    padding: 5px;
+    border: solid 1px rgba(255, 255, 0, 0.356);
+    border-radius: 100px;
+
+}
+
+.insta,
+.face,
+.tiktok,
+.spoty,
+.twitter {
+    cursor: pointer;
+    background-color: yellow;
+    border-radius: 100%;
+    padding: 0px 8px;
+    border: 1px solid yellow;
+    margin: 5px 20px;
+
+
+}
+
+.cont-menu {
+    background-color: #217dc8;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 25%;
+}
+
+
+
+
+
+
+.inicio,
+.shows,
+.bio,
+.video,
+.discos,
+.audio {
+
+    cursor: pointer;
+    background-color: #217dc800;
+    color: yellow;
+    font-size: 20px;
+    border: none;
+    list-style: none;
+
+
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.cont-inicio,
+h1 {
+    font-size: 50px;
+    margin: 15px;
+}
+
+.cont-inicio p {
+    font-size: 20px;
+}
+
+.cont-inicio {
+
+    text-align: center;
+    margin-top: 200px;
+    color: white;
+    width: 600px;
+
+}
